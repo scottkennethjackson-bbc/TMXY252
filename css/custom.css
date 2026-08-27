@@ -16,6 +16,10 @@ html {
     height: auto;
 }
 
+h1 {
+    font-size: 1.25rem;
+}
+
 .header-btn:hover svg {
     fill: #fd9d0d;
 }
@@ -30,10 +34,6 @@ html {
     svg {
         fill: #0d6efd !important;
     }
-}
-
-.navbar {
-    min-width: 185px;
 }
 
 .nav-item:hover .nav-btn {
@@ -54,4 +54,36 @@ html {
     padding: 0 .25rem;
     background-color: transparent;
     border: none;
+}
+
+.nav-text {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        min-width: 185px;
+    }
+
+    .nav-text {
+        display: inline;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 3.25rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4.25rem;
+    }
 }
