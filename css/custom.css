@@ -26,38 +26,33 @@ h1 {
 
 #admin-user-btn:hover {
     color: #fd9d0d !important;
-    
-    span {
-        background-color: #fd9d0d !important;
-    }
-
-    svg {
-        fill: #0d6efd !important;
-    }
 }
 
-.nav-item:hover .nav-btn {
-    color: #0a59ca;
+#admin-user-btn:hover #admin-user-icon {
+    background-color: #fd9d0d !important;
+}
+
+#admin-user-btn:hover svg {
+    fill: #0d6efd;
 }
 
 .nav-item .active {
+    color: white !important;
     background-color: #0d6efd !important;
 }
 
-.active .nav-btn {
-    color: white !important;
-}
-
-.nav-btn {
+.nav-link {
     display: flex;
     gap: .25rem;
-    padding: 0 .25rem;
-    background-color: transparent;
-    border: none;
+    padding: .25rem;
 }
 
 .nav-text {
     display: none;
+}
+
+footer a:hover {
+    color:#fd9d0d !important;
 }
 
 @media (min-width: 576px) {
