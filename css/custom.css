@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    max-width: 10rem;
+    height: auto;
+}
+
+.header-btn:hover svg {
+    fill: #fd9d0d;
+}
+
+#admin-user-btn:hover {
+    color: #fd9d0d !important;
+    
+    span {
+        background-color: #fd9d0d !important;
+    }
+
+    svg {
+        fill: #0d6efd !important;
+    }
+}
+
+.navbar {
+    min-width: 185px;
+}
+
+.nav-item:hover .nav-btn {
+    color: #0a59ca;
+}
+
+.nav-item .active {
+    background-color: #0d6efd !important;
+}
+
+.active .nav-btn {
+    color: white !important;
+}
+
+.nav-btn {
+    display: flex;
+    gap: .25rem;
+    padding: 0 .25rem;
+    background-color: transparent;
+    border: none;
+}
